@@ -1,6 +1,3 @@
-# challenge-nest-graphql
-GraphQL API com NestJS no Back-end. React no Front-end..
-
 <h1 align="center">
 Code Challenge - NestJS + TypeORM + GraphQL
 </h1>
