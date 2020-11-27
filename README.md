@@ -1,78 +1,70 @@
 # challenge-nest-graphql
 GraphQL API com NestJS no Back-end. React no Front-end..
 
+<h1 align="center">
+Code Challenge - NestJS + TypeORM + GraphQL
+</h1>
+
+<p align="center">Simple GraphQL API with NestJS in Back-end. React and Apollo Client for Front-end.</p>
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+  <a href="https://github.com/Rocketseat/youtube-challenge-nestjs-graphql/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/rocketseat/youtube-challenge-nestjs-graphql?color=%237159c1&logoColor=%237159c1&style=flat" alt="Contributors">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/github/license/rocketseat/youtube-challenge-nestjs-graphql?color=%237159c1&logo=mit" alt="License">
+  </a>
 </p>
 
-[travis-image]: https://api.travis-ci.org/nestjs/nest.svg?branch=master
-[travis-url]: https://travis-ci.org/nestjs/nest
-[linux-image]: https://img.shields.io/travis/nestjs/nest/master.svg?label=linux
-[linux-url]: https://travis-ci.org/nestjs/nest
-  
-  <p align="center">A progressive <a href="http://nodejs.org" target="blank">Node.js</a> framework for building efficient and scalable server-side applications, heavily inspired by <a href="https://angular.io" target="blank">Angular</a>.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/dm/@nestjs/core.svg" alt="NPM Downloads" /></a>
-<a href="https://travis-ci.org/nestjs/nest"><img src="https://api.travis-ci.org/nestjs/nest.svg?branch=master" alt="Travis" /></a>
-<a href="https://travis-ci.org/nestjs/nest"><img src="https://img.shields.io/travis/nestjs/nest/master.svg?label=linux" alt="Linux" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#5" alt="Coverage" /></a>
-<a href="https://gitter.im/nestjs/nestjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge"><img src="https://badges.gitter.im/nestjs/nestjs.svg" alt="Gitter" /></a>
-<a href="https://opencollective.com/nest#backer"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec"><img src="https://img.shields.io/badge/Donate-PayPal-dc3d53.svg"/></a>
-  <a href="https://twitter.com/nestframework"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+<hr>
 
-## Description
+## Participants
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+| [<img src="https://avatars3.githubusercontent.com/u/10366880?s=460&v=4" width="75px;"/>](https://github.com/guilhermerodz) |
+| :------------------------------------------------------------------------------------------------------------------------: |
 
-## Installation
 
-```bash
-$ npm install
-```
+| [Guilherme Rodz](https://github.com/guilhermerodz)
 
-## Running the app
+## Functional Requirements
 
-```bash
-# development
-$ npm run start
+- [x] User register with e-mail only
+- [x] User login with e-mail only
+- [x] User need to be able to post messages on the Board (Back-end)
+- [ ] User need to be able to post messages on the Board (Front-end)
+- [x] (optional) User need to be able to delete messages (Back-end)
+- [ ] (optional) User need to be able to delete messages (Front-end)
+- [x] New messages can be listed at real time (Back-end)
+- [ ] New messages can be listed at real time (Front-end)
+- [ ] Add Swagger support
+- [ ] DataLoader integration
 
-# watch mode
-$ npm run start:dev
+## Business Rules
 
-# production mode
-$ npm run start:prod
-```
+- [x] Message can only be deleted by its author
 
-## Test
+## Non-functional Requirements
 
-```bash
-# unit tests
-$ npm run test
+- [x] Nest.js
+- [x] GraphQL
+- [x] TypeORM
+- [x] React + Apollo Client (or another library)
 
-# e2e tests
-$ npm run test:e2e
+## What can be better?
 
-# test coverage
-$ npm run test:cov
-```
+- User ID could be stored at Context API in Front-end;
 
-## Support
+## Dependencies
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+- [Node](https://nodejs.org/en/) = 10
 
-## Stay in touch
+## Getting started
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+1. Clone this repository;<br />
+2. Run `npm or yarn install` at each project in order to install dependencies.<br />
+3. Run `yarn start:dev` for `back-end` and `yarn start` for `front-end` folder.<br />
+4. Access `localhost:3000` in your browser. GraphQL playground: `localhost:3333/graphql`.<br />
 
-## License
+## Contributing
 
-  Nest is [MIT licensed](LICENSE).
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
