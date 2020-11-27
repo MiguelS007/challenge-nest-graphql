@@ -20,11 +20,16 @@ Code Challenge - NestJS + TypeORM + GraphQL
 
 ## Participants
 
-| [<img src="https://avatars3.githubusercontent.com/u/10366880?s=460&v=4" width="75px;"/>](https://github.com/guilhermerodz) |
+| [<img src="https://avatars3.githubusercontent.com/u/61780220?s=400&u=f70299eb4ea11b4db2643818c9dfe4185e5898c7&v=4" width="75px;"/>](https://github.com/MiguelS007) |
 | :------------------------------------------------------------------------------------------------------------------------: |
 
 
-| [Guilherme Rodz](https://github.com/guilhermerodz)
+| [Miguel Sodré](https://github.com/MiguelS007)
+
+## Images
+
+![enter image description here](https://github.com/MiguelS007/challenge-nest-graphql/blob/main/assets/WhatsApp%20Image%202020-11-27%20at%2010.13.43.jpeg?raw=true)
+![enter image description here](https://github.com/MiguelS007/challenge-nest-graphql/blob/main/assets/WhatsApp%20Image%202020-11-27%20at%2010.17.06.jpeg?raw=true)
 
 ## Functional Requirements
 
